@@ -8,10 +8,6 @@
 
 ## Running locally
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
-
-> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your various OpenAI and authentication provider accounts.
-
 0. Install necessary libraries: npm, [tsx](https://tsx.is/getting-started), docker
 1. Install Vercel CLI: `npm i -g vercel`
 2. Link local instance with Vercel and GitHub accounts (creates `.vercel` directory): `vercel link`
@@ -23,5 +19,7 @@ You will need to use the environment variables [defined in `.env.example`](.env.
 pnpm install
 pnpm dev
 ```
+
+NOTE: All credentials are included privately in the Google Drive file, not pushed to Github.
 
 Your app template should now be running on [localhost:3000](http://localhost:3000/).
